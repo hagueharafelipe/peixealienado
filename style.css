@@ -1,0 +1,117 @@
+/* Tags */
+html {
+	min-height: 722px;
+}
+
+header {
+	background: linear-gradient(to right, #3399ff 60%, #00ffff 100%);
+	height: 120px;
+}
+h1 {
+	font-weight: normal;
+	font-size:40px;
+	height:40px;
+	padding: 20px 0px 20px 0px;
+}
+
+nav{
+	text-align: center;
+}
+
+hr {
+	height: 10px;
+	border: 0px;
+	background-color: black;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: helvetica, arial;
+}
+
+footer {
+	clear: both;
+	min-height: 50px;
+}
+
+article {
+	padding: 15px;
+}
+
+aside {
+	padding: 73.82px 15px;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+/* Id */
+#scale {
+	height: 100%;
+	width: 100%;
+}
+
+#cabecalho {
+	height:80px;
+	text-align: center;
+	padding: 10px 10px;
+}
+
+#menu {
+	background-color: white;
+	height: 20px;
+	padding:2px 2px;
+}
+
+#footer {
+	background: linear-gradient(to bottom, #00cc00 0%, #ffff00 100%);
+}
+
+#pfooter {
+	padding: 15px 10px;
+}
+
+#div_footer {
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+	width: 980px;
+}
+
+#div_direita {
+	min-height: 508px;
+	width: 582px;
+	float: left;
+	border-left: 10px solid black;
+	background: linear-gradient(to bottom, #cc00ff 0%, #ff33cc 100%);
+}
+
+#div_esquerda {
+	min-height: 508px;
+	width: 388px;
+	float: right;
+	border-left: 10px solid black;
+	border-right: 10px solid black;
+}
+
+#placeholderfont {
+	font-family: times-new-roman;
+}
+
+#botao {
+	padding: 5px;
+}
+
+/* container */
+.container1 {
+	width: 1000px;
+	margin:auto;
+}
+
+.img_aside {
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
